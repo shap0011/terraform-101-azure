@@ -1,0 +1,12 @@
+# Terraform generated files
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+
+# OS / IDE
+.vscode/
+.DS_Store
+Thumbs.db
+
+
