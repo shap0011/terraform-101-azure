@@ -44,7 +44,8 @@ This approach:
 
 - Terraform generated artifacts (e.g., `.terraform/`, state files) are excluded via `.gitignore`.
 - Sensitive inputs are marked using Terraform’s `sensitive = true`.
-  > Terraform state files and generated artifacts are intentionally excluded from version control and are created locally during `terraform init` and `apply`.
+
+> Terraform state files and generated artifacts are intentionally excluded from version control and are created locally during `terraform init` and `apply`.
 
 ## Tech
 
