@@ -2,6 +2,20 @@
 
 Hands-on Terraform labs created while following the **Terraform 101: The Ultimate Hands-On Guide [Azure Edition]** course.
 
+## 🚧 Work in Progress
+
+This repository is actively being developed while progressing through the
+**Terraform 101: The Ultimate Hands-On Guide [Azure Edition]** course.
+
+Currently completed:
+
+- Core Terraform syntax and structure
+- Variables and sensitive inputs
+- Local values and naming conventions
+- Basic provider usage
+
+Additional labs and improvements will be added as the course progresses.
+
 ## What’s in this repo
 
 - **Lab1**: Terraform basics for Azure
