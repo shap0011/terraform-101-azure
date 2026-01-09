@@ -16,6 +16,22 @@ Currently completed:
 
 Additional labs and improvements will be added as the course progresses.
 
+## 🏷 Naming Strategy (Terraform)
+
+Resource names are constructed using a consistent, environment-aware prefix
+derived from input variables and a generated suffix.
+
+The naming pattern follows this structure:
+
+`<application-name>-<environment>-<random-suffix>`
+
+This approach:
+
+- Helps avoid naming collisions in Azure
+- Keeps resource names readable and predictable
+- Supports multiple environments (dev, test, prod)
+- Centralizes naming logic using Terraform local values
+
 ## What’s in this repo
 
 - **Lab1**: Terraform basics for Azure
