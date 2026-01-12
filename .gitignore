@@ -1,7 +1,17 @@
-# Terraform generated files
+# Terraform generated directories
 .terraform/
+
+# Terraform state files
 terraform.tfstate
 terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files that may contain values
+*.auto.tfvars
+*.tfvars
+
+# Terraform lock file (optional to commit; ignored for learning repo)
 .terraform.lock.hcl
 
 # OS / IDE
